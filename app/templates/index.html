@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transcriptor de Audio</title>
+    <!-- Puedes añadir aquí CSS adicional si lo necesitas -->
+</head>
+<body>
+    <h1>Transcriptor de Audio</h1>
+    <p>Ingresa el enlace de Google Drive del archivo de audio que deseas transcribir.</p>
+    
+    <form action="/transcribir" method="post">
+        <label for="url_drive">Enlace de Google Drive:</label><br>
+        <input type="text" id="url_drive" name="url_drive" required><br>
+        <input type="submit" value="Transcribir">
+    </form>
+</body>
+</html>
